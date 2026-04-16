@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bacpypes3_utils"
+version = "0.0.1"
+authors = [
+  { name="Kian Wee CHEN", email="chenkianwee@gmail.com" },
+]
+description = 'Utility scripts build on top of the bacpypes3 library'
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = ["License :: OSI Approved :: MIT License",
+               "Programming Language :: Python :: 3.12",
+               "Operating System :: OS Independent"]
+dependencies = ['bacpypes3>=0.0.106']
+
+[project.urls]
+"Homepage" = "https://github.com/chenkianwee/bacpypes3_utils"
+"Bug Tracker" = "https://github.com/chenkianwee/bacpypes3_utils/issues"
